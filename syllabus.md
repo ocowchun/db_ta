@@ -1,4 +1,6 @@
+
 ##week1-為什麼要學資料庫管理
+####上課日期:2/26
 為什麼要學資料庫管理
 介紹課程大綱
 整個學期學完，希望同學會有基本的建置網站與設計資料庫的能力。
@@ -8,6 +10,7 @@
 為什麼要念大學,希望從大學裡面得到什麼,大學畢業要做什麼,喜不喜歡寫程式,為什麼
 
 ##week2-學習使用協同管理工具
+####上課日期:3/5
 ###學習git版本控制
 [try git](https://try.github.io/levels/1/challenges/1)
 [Git 版本控制系統](http://ihower.tw/git/)
@@ -21,7 +24,7 @@
 每個小組使用github建立一個repo，每個成員都要push一個commit上去。
 
 ##week3-學習html,css
-
+####上課日期:3/12
 ###html
 ####常用tag 
 a,p,div,input,form,ul,li...etc
@@ -37,7 +40,7 @@ a,p,div,input,form,ul,li...etc
 
 
 ##week4-JavaScript
-
+####上課日期:3/19
 ###basic JavaScript
 [codecademy-JavaScript](http://www.codecademy.com/en/tracks/javascript)
 [nodeschool](http://nodeschool.io/)
@@ -52,6 +55,7 @@ a,p,div,input,form,ul,li...etc
 1.寫一個計算機
 
 ##week5-Ruby on Rails
+####上課日期:3/26
 ###Ruby on Rails
 [Ruby on Rails 實戰聖經](http://ihower.tw/rails4/)
 * install Ruby!!!
@@ -65,6 +69,7 @@ a,p,div,input,form,ul,li...etc
 留言板
 
 ##week6-Ruby on Rails2
+####上課日期:4/2
 ###Ruby on Rails
 [Ruby on Rails 實戰聖經](http://ihower.tw/rails4/)
 * CRUD
@@ -77,7 +82,57 @@ a,p,div,input,form,ul,li...etc
 ###作業
 簡單的待做清單
 
-##week7-SQL
+##week7-basic Ruby
+####上課日期:4/9
+
+##week8-frontend ninja1
+####上課日期:4/16
+###chart
+簡單的資料視覺化
+
+###ajax
+透過ajax打造更好的用戶體驗
+
+###Google MAP API
+將地圖加入你的網站
+
+###workflow
+[Automating Front-end Workflow](https://speakerdeck.com/addyosmani/automating-front-end-workflow)
+
+##week9-frontend ninja2
+####上課日期:4/23
+###sass
+CSS with superpowers
+
+###yeoman
+THE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS
+
+###gulp
+The streaming build system
+
+[sass](http://sass-lang.com/)
+[Automating Front-end Workflow](https://speakerdeck.com/addyosmani/automating-front-end-workflow)
+[yeoman](http://yeoman.io/)
+[gulp](http://gulpjs.com/)
+
+##week10-chef and test kitchen!
+####上課日期:4/30
+
+###vagrant
+Create and configure lightweight, reproducible, and portable development environments.
+
+###chef
+IT automation for speed and awesomeness
+
+###test kitchen 
+Your infrastructure deserves tests too.
+
+[vagrant](https://www.vagrantup.com/)
+[chef](https://www.chef.io/chef/)
+[kitchen CI](http://kitchen.ci/)
+
+##week11-SQL
+####上課日期:5/7
 ###什麼是sql
 * where
 * join
@@ -90,12 +145,11 @@ http://sqlschool.modeanalytics.com/
 ###作業
 出sql題目給同學寫(basic,advance,bonus)
 
-##week8-frontend
-###chart
-###ajax
+##week11-how to deployment
+####上課日期:5/14
 
-###workflow
-[Automating Front-end Workflow](https://speakerdeck.com/addyosmani/automating-front-end-workflow)
+
+
 
 ##others
 ###transaction

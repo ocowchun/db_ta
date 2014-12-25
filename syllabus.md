@@ -131,7 +131,7 @@ Your infrastructure deserves tests too.
 [chef](https://www.chef.io/chef/)
 [kitchen CI](http://kitchen.ci/)
 
-##week12-SQL
+##week11-SQL
 ####上課日期:5/7
 ###什麼是sql
 * where
@@ -145,7 +145,7 @@ http://sqlschool.modeanalytics.com/
 ###作業
 出sql題目給同學寫(basic,advance,bonus)
 
-##week11-how to deployment
+##week12-how to deployment
 ####上課日期:5/14
 
 

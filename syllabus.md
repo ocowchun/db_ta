@@ -131,7 +131,7 @@ Your infrastructure deserves tests too.
 [chef](https://www.chef.io/chef/)
 [kitchen CI](http://kitchen.ci/)
 
-##week11-SQL
+##week12-SQL
 ####上課日期:5/7
 ###什麼是sql
 * where

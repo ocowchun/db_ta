@@ -5,6 +5,7 @@
 介紹課程大綱
 整個學期學完，希望同學會有基本的建置網站與設計資料庫的能力。
 [軟體開發學習建議 - 給就讀資訊相關科系的學生](http://blog.cgmlife.net/posts/2014/06/10/learning-suggestions-for-information-related-to-software-development-department-students)
+[Enabling Students to Become Professionals](https://speakerdeck.com/atmos/enabling-students-to-become-professionals)
 ###作業:
 每個同學回答下列的問題，小組整理完寄給我。
 為什麼要念大學,希望從大學裡面得到什麼,大學畢業要做什麼,喜不喜歡寫程式,為什麼
@@ -34,10 +35,12 @@ a,p,div,input,form,ul,li...etc
 [codecademy-HTML & CSS](http://www.codecademy.com/en/tracks/web)
 [30 Days to Learn HTML & CSS](http://webdesign.tutsplus.com/courses/30-days-to-learn-html-css)
 
+###landing page design
+[​Landing Page Conversion Course](http://thelandingpagecourse.com/landing-page-design-examples-critiques/)
 ###作業:
 1.基本的html練習
 2.介紹自己的html頁面,包含一段話,大頭貼,facebook,..etc 上傳到github
-
+3. 做一個產品的landing page
 
 ##week4-JavaScript
 ####上課日期:3/19

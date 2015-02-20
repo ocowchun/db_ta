@@ -1,0 +1,26 @@
+{
+  "name": "db_ta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ocowchun/db_ta.git"
+  },
+  "author": "ocowchun <ocowchun@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ocowchun/db_ta/issues"
+  },
+  "homepage": "https://github.com/ocowchun/db_ta",
+  "devDependencies": {
+    "browser-sync": "^2.2.0",
+    "gulp": "^3.8.11"
+  }
+}

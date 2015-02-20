@@ -1,6 +1,9 @@
-site_name: My Docs
+site_name: Web 101
 pages:
 - [index.md, Home]
 - [about.md, About]
+- ['git/git_index.md', 'Git',"hello"]
+- [git/git_video.md,'Git','video']
 
-theme: readthedocs
+
+# theme: readthedocs

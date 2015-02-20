@@ -1,17 +1,3 @@
-# Welcome to MkDocs
+# Welcome to Web101
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+這裏記錄了開發網站的基本技巧，希望可以幫助對開發網站有興趣的朋友,學會建立網站需要的相關技術

@@ -1,6 +1,7 @@
 #week1-為什麼要學資料庫管理
 ####上課日期:2/26
 
+<script async class="speakerdeck-embed" data-id="387b181cc75d4da4a4411c3cf31c855b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 ##為什麼要學資料庫管理?
 
 幾乎所有的系統都有管理資料的需求

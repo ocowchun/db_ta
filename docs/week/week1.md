@@ -61,6 +61,8 @@
 
 [連結](http://ocowchun.github.io/web101/site/)
 
+[Student Developer Pack](https://education.github.com/pack)
+
 ####整個學期學完，希望同學會有基本的建置網站與設計資料庫的能力。
 
 

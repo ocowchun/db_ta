@@ -25,7 +25,7 @@
 
 * SQL
 
-##如何管理資料庫
+###如何管理資料庫
 * 監控系統
 * 系統可用性
 * 效能調整
@@ -33,6 +33,32 @@
 ###如何應用資料
 * 資料倉儲
 * 資料採礦
+
+##那助教課在上些什麼?
+
+我會分享建構網站的所需要的技術與工具包含
+
+* github
+* trello
+* html
+* css
+* javascript
+* ruby on rails
+
+基本上學完就可以出去接案了。
+
+有空的話會教一些延伸的知識,包含:
+
+* devops
+* log management
+* redis
+* redmine
+
+這門課要學習的東西很多,不過只要每週都有照著進度走,相信學期結束會有很多收穫。
+
+**助教課相關的文件我都會放在下面的連結**
+
+[連結](http://ocowchun.github.io/web101/site/)
 
 ####整個學期學完，希望同學會有基本的建置網站與設計資料庫的能力。
 
@@ -43,7 +69,8 @@
 
 ##作業:
 ####1. 申請github帳號
-[github](https://github.com/)
+
+* [github](https://github.com/)
 
 ####2.安裝github,nodejs,sublime text或其他編輯器
 
@@ -51,16 +78,12 @@
 * [nodejs](http://nodejs.org/)
 * [Sublime Text](http://www.sublimetext.com/)
 
-<!-- 
-每個同學回答下列的問題，小組整理完寄給我。
-為什麼要念大學,希望從大學裡面得到什麼,大學畢業要做什麼,喜不喜歡寫程式,為什麼
- -->
-##上課內容
+<!-- ##上課內容
 * 發Syllabus，並請同學回家看一下專案的題目，以及找專案組員（原則上三人一組
 * 3/10那一周會在課堂上決定分組名單以及專案題目。
 * 如果有同學要問加退選的事情，請他們3/10那一週上課找老師談
 * 跟他們說明,這一系列的課程會學習什麼(建置網站,協同合作)
 * install github for windows/mac
 * basic git command
-* 加入社團 https://www.facebook.com/groups/NCCUMIS.DBMS/
+* 加入社團 https://www.facebook.com/groups/NCCUMIS.DBMS/ -->
 

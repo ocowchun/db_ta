@@ -94,3 +94,5 @@ puts markdown.to_html
 ###reference
 [Markdown文件](http://markdown.tw/)
 [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
+
+http://www.remarq.io/articles/five-minutes-to-markdown-mastery/

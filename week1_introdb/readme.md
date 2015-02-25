@@ -16,3 +16,5 @@
 * 跟他們說明,這一系列的課程會學習什麼(建置網站,協同合作)
 * install github for windows/mac
 * basic git command
+* 加入社團 https://www.facebook.com/groups/NCCUMIS.DBMS/
+

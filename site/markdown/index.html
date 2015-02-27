@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-        <title>About - Web 101</title>
+        <title>Markdown - Web 101</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -53,8 +53,8 @@
                 <ul class="nav navbar-nav">
                 
                 
-                    <li class="active">
-                        <a href=".">About</a>
+                    <li >
+                        <a href="../about">About</a>
                     </li>
                 
                 
@@ -89,8 +89,8 @@
                 
                 
                 
-                    <li >
-                        <a href="../markdown">Markdown</a>
+                    <li class="active">
+                        <a href=".">Markdown</a>
                     </li>
                 
                 
@@ -103,12 +103,12 @@
                 
                 
                 <li >
-                    <a rel="next" href="..">
+                    <a rel="next" href="../week/week1">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="../git/git_index">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -124,24 +124,108 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#about">About</a></li>
+        <li class="main active"><a href="#markdown">Markdown</a></li>
         
-            <li><a href="#hello">hello</a></li>
+            <li><a href="#_1">常用語法</a></li>
         
-            <li><a href="#ypy">ypy</a></li>
+    
+        <li class="main "><a href="#hello-world">Hello World</a></li>
+        
+            <li><a href="#_3">大家好</a></li>
+        
+            <li><a href="#_8">大俠愛吃漢堡包</a></li>
+        
+            <li><a href="#gfm">GFM</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="about">About</h1>
-<pre class="prettyprint well"><code class="ruby">pus &quot;string&quot;
+<h1 id="markdown">Markdown</h1>
+<blockquote>
+<p>Markdown的目標是實現「易讀易寫」。</p>
+</blockquote>
+<p>在網路上，很流行使用Markdown來編寫文件，因為可以用非常簡單的語法完成基本的文件編輯。
+這個教學文件就是使用Markdown完成的</p>
+<h2 id="_1">常用語法</h2>
+<h3 id="_2">標題</h3>
+<p>在行首插入1到6個<code>#</code>,會把該行文字變為標題(字體大小與插入的<code>#</code>數成反比)
+例如:</p>
+<pre class="prettyprint well"><code class="md">#Hello World
+##大家好
+###今天天氣真好
 </code></pre>
 
-<h2 id="hello">hello</h2>
-<p>123123</p>
-<h2 id="ypy">ypy</h2>
+<h1 id="hello-world">Hello World</h1>
+<h2 id="_3">大家好</h2>
+<h3 id="_4">今天天氣真好</h3>
+<h3 id="_5">區塊引言</h3>
+<p>在引言的第一行行首加上<code>&gt;</code></p>
+<pre class="prettyprint well"><code class="md">&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+</code></pre>
+
+<blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+</blockquote>
+<h3 id="_6">清單</h3>
+<p>Markdown支援有序清單和無序清單。</p>
+<p>無序清單使用星號、加號或是減號作為清單標記：</p>
+<pre class="prettyprint well"><code class="md">*   Red
+*   Green
+*   Blue
+</code></pre>
+
+<p>會產生
+<em>   Red
+</em>   Green
+*   Blue</p>
+<p>有序清單則使用數字接著一個英文句點：</p>
+<pre class="prettyprint well"><code class="md">1.  Bird
+2.  McHale
+3.  Parish
+</code></pre>
+
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<h3 id="_7">分隔線</h3>
+<pre class="prettyprint well"><code class="md">大俠愛吃漢堡包
+---
+你不是大俠，你吃香蕉
+</code></pre>
+
+<h2 id="_8">大俠愛吃漢堡包</h2>
+<p>你不是大俠，你吃香蕉</p>
+<h3 id="_9">連結</h3>
+<pre class="prettyprint well"><code class="md">[facebook](www.facebook.com)
+</code></pre>
+
+<p><a href="../www.facebook.com">facebook</a></p>
+<h3 id="_10">圖片</h3>
+<pre class="prettyprint well"><code class="md">![Alt text](/path/to/img.jpg)
+</code></pre>
+
+<p><img alt="Alt text" src="..//path/to/img.jpg" /></p>
+<h2 id="gfm">GFM</h2>
+<blockquote>
+<p>GitHub uses "GitHub Flavored Markdown," or GFM, across the site--in issues, comments, and pull requests. It differs from standard Markdown (SM) in a few significant ways, and adds some additional functionality.</p>
+</blockquote>
+<h3 id="syntax-highlighting">Syntax highlighting</h3>
+<p>Code blocks can be taken a step further by adding syntax highlighting. In your fenced block, add an optional language identifier and we'll run it through syntax highlighting. For example, to syntax highlight Ruby code:</p>
+<pre class="prettyprint well"><code class="ruby">require 'redcarpet'
+markdown = Redcarpet.new(&quot;Hello World!&quot;)
+puts markdown.to_html
+</code></pre>
+
+<h3 id="reference">reference</h3>
+<p><a href="http://markdown.tw/">Markdown文件</a>
+<a href="https://help.github.com/articles/github-flavored-markdown/">GitHub Flavored Markdown</a>
+<a href="http://www.remarq.io/articles/five-minutes-to-markdown-mastery/">five-minutes-to-markdown-mastery</a></p>
 </div>
         </div>
 

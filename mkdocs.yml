@@ -5,6 +5,7 @@ pages:
 - ['git/git_index.md', 'Git',"Introduction"]
 - [git/git_video.md,'Git','video']
 - [week/week1.md,'week','week1']
+- [markdown.md,Markdown]
 
 
 

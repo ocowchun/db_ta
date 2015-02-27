@@ -1,3 +1,4 @@
+#Markdown
 >Markdown的目標是實現「易讀易寫」。
 
 在網路上，很流行使用Markdown來編寫文件，因為可以用非常簡單的語法完成基本的文件編輯。
@@ -95,5 +96,3 @@ puts markdown.to_html
 [Markdown文件](http://markdown.tw/)
 [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
 [five-minutes-to-markdown-mastery](http://www.remarq.io/articles/five-minutes-to-markdown-mastery/)
-
-http://www.remarq.io/articles/five-minutes-to-markdown-mastery/

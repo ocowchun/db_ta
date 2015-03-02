@@ -95,5 +95,5 @@ puts markdown.to_html
 [Markdown文件](http://markdown.tw/)
 [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
 [five-minutes-to-markdown-mastery](http://www.remarq.io/articles/five-minutes-to-markdown-mastery/)
-
-http://www.remarq.io/articles/five-minutes-to-markdown-mastery/
+[five-minutes-to-markdown-mastery](http://www.remarq.io/articles/five-minutes-to-markdown-mastery/)
+[markdownpad](http://markdownpad.com/)

@@ -5,5 +5,7 @@
 ##changelog
 ####2015.03.02
 * add [sublime text操作文件](sublime.md)
+* add [syllabus](syllabus.md)
+
 ####2015.02.27
 * add [markdown](markdown.md)

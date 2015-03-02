@@ -1,6 +1,10 @@
 #Sublime Text
 在開發網頁的時候,我們會需要一個文字編輯器,個人覺得Sublime text是全世界最好用的編輯器,他的優點在於強大的搜尋功能,與豐富的套件,來協助使用者開發。同學也可以選擇其他的文字編輯器或是IDE如:
 
+* [atom](https://atom.io/):github開發的文字編輯器
+* [brackets](http://brackets.io/):Brackets was founded by Adobe as a community guided
+* [WebStorm](https://www.jetbrains.com/webstorm/)
+
 [Sublime Text](http://www.sublimetext.com/)
 
 ##Sublime Text Plugins

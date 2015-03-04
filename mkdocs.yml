@@ -5,6 +5,7 @@ pages:
 - ['git/git_index.md', 'Git',"Introduction"]
 - [git/git_video.md,'Git','video']
 - [git/readme101.md,'Git','README']
+- [git/github_page.md,'Git','Github Pages']
 - [week/week1.md,'week','week1']
 - [markdown.md,Markdown]
 - [sublime.md,'Sublime Text']

@@ -75,6 +75,10 @@
                                 <a href="../readme101">README</a>
                             </li>
                         
+                            <li >
+                                <a href="../github_page">Github Pages</a>
+                            </li>
+                        
                         </ul>
                     </li>
                 
@@ -88,19 +92,28 @@
                                 <a href="../../week/week1">week1</a>
                             </li>
                         
+                            <li >
+                                <a href="../../week/week2">week2</a>
+                            </li>
+                        
                         </ul>
                     </li>
                 
                 
                 
-                    <li >
-                        <a href="../../markdown">Markdown</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../../sublime">Sublime Text</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">others <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            <li >
+                                <a href="../../others/markdown">Markdown</a>
+                            </li>
+                        
+                            <li >
+                                <a href="../../others/sublime">Sublime Text</a>
+                            </li>
+                        
+                        </ul>
                     </li>
                 
                 
@@ -146,11 +159,13 @@
         
             <li><a href="#git_1">什麼是Git</a></li>
         
-            <li><a href="#_2">術語</a></li>
+            <li><a href="#_2">直接動手試試看吧</a></li>
+        
+            <li><a href="#_3">術語</a></li>
         
             <li><a href="#video">Video</a></li>
         
-            <li><a href="#_3">基本指令</a></li>
+            <li><a href="#_4">基本指令</a></li>
         
             <li><a href="#reference">reference</a></li>
         
@@ -164,7 +179,10 @@
 <p>在專案的開發過程中，會不停地產生新的程式碼，而產生程式碼的過程很可能會遇到檔案被別人覆蓋，或是不知道誰改了某段程式碼，又或者想要復原回到前幾天的版本，因此我們需要一個版本控制系統來協助我們控制專案的版本，讓我們可以專心於開發程式。</p>
 <h2 id="git_1">什麼是Git</h2>
 <p>Git是一個分布式版本控制／軟體配置管理軟體，原是Linux核心開發者林納斯·托瓦茲（Linus Torvalds）為更好地管理Linux核心開發而設計。具有分散式、效能好、本地存取、無痛分支的特性。</p>
-<h2 id="_2">術語</h2>
+<h2 id="_2">直接動手試試看吧</h2>
+<p>說那麼多,實際操作一遍基本的git指令,或許比較容易了解。</p>
+<h4 id="try-git"><a href="https://try.github.io/levels/1/challenges/1">try git</a></h4>
+<h2 id="_3">術語</h2>
 <h4 id="repository">檔案庫（Repository）</h4>
 <p>存儲檔案的新版本還有歷史資料的地方，通常是在伺服器上。</p>
 <h4 id="commit">提交（Commit）</h4>
@@ -180,7 +198,7 @@
 <h2 id="video">Video</h2>
 <h3 id="github-git-foundations"><a href="../git_video">GitHub &amp; Git Foundations</a></h3>
 <p>收看由github錄製的教學影片，快速上手git</p>
-<h2 id="_3">基本指令</h2>
+<h2 id="_4">基本指令</h2>
 <p>建立Git Repository
 <pre class="prettyprint well">
 $ git init
@@ -267,7 +285,7 @@ $ git status
 $ git commit -m "First Commit"
 </pre>
 以上指令會產生一個<code>README.md</code>的檔案，並提交變更。</p>
-<h4 id="_4">檢視檔案差異,提交變更</h4>
+<h4 id="_5">檢視檔案差異,提交變更</h4>
 <p><pre class="prettyprint well">
 編輯 README 做些變更
 $ git status

@@ -7,6 +7,9 @@
 ##Github Pages
 >在github上建立你的個人網站
 
-##html101
+##[html101](../html/html101.md)
+簡單的html
 
-##markdown101
+##[markdown101](../others/markdown.md)
+在網路上，很流行使用Markdown來編寫文件，因為可以用非常簡單的語法完成基本的文件編輯。
+這個教學文件就是使用Markdown完成的

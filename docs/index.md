@@ -5,6 +5,7 @@
 ##changelog
 ####2015.03.05
 * add [Development Tools](html/development_tool.md)
+* fix [Markdown](others/markdown.md) syntax
 
 ####2015.03.04
 * add [Github Pages](git/github_page.md)

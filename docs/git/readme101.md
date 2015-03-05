@@ -6,6 +6,13 @@ README是一個簡單的純文字檔案,讓我們可以快速的瞭解有關這�
 * 這個專案在做什麼
 * 簡單的使用方式(如果這是一個library)
 * copyright
+
+i.e.
+```md
+## License
+
+MIT © [ocowchun](ocowchun@gmail.com)
+```
 * 如何安裝,設定,執行program
 * 作者名稱
 * 如何sublmit bugs,feedback

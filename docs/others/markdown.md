@@ -67,9 +67,11 @@ Markdown支援有序清單和無序清單。
 你不是大俠，你吃香蕉
 
 ###連結
+
 ```md
 [facebook](www.facebook.com)
 ```
+
 [facebook](www.facebook.com)
 
 
@@ -92,7 +94,7 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
-###reference
-[Markdown文件](http://markdown.tw/)
-[GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
-[five-minutes-to-markdown-mastery](http://www.remarq.io/articles/five-minutes-to-markdown-mastery/)
+###reference與相關連結
+* [Markdown文件](http://markdown.tw/)
+* [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
+* [five-minutes-to-markdown-mastery](http://www.remarq.io/articles/five-minutes-to-markdown-mastery/)

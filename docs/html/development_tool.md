@@ -2,6 +2,7 @@
 
 ##[gulp](http://gulpjs.com/)
 >Automate and enhance your workflow
+協助前端開發的工具,例如live reload,compile sass...etc
 
 ###安裝gulp
 ```bash

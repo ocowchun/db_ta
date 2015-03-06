@@ -4,6 +4,9 @@
 
 ##changelog
 ####2015.03.05
+* 補齊[Github Pages](git/github_page.md)的說明
+
+####2015.03.05
 * add [Development Tools](html/development_tool.md)
 * fix [Markdown](others/markdown.md) syntax
 

@@ -1,4 +1,7 @@
 #Video
+##基本的git指令,使用git shell
+<iframe width="640" height="480" src="https://www.youtube.com/embed/acqxymwGmG0?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
 ##GitHub & Git Foundations
 Git的基本操作可以收看由Github錄製的操作教學
 

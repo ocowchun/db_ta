@@ -3,6 +3,10 @@
 這裏記錄了開發網站的基本技巧，希望可以幫助對開發網站有興趣的朋友,學會建立網站需要的相關技術
 
 ##changelog
+####2015.03.07
+* 加入示範影片到[Github Pages](git/github_page.md)
+* 加入示範影片到[Git Video](git/git_video.md)
+
 ####2015.03.05
 * 補齊[Github Pages](git/github_page.md)的說明
 

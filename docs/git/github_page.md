@@ -33,3 +33,7 @@ $ git push -u origin master
 
 ###5. 前往 `http://your-name.github.io.`瀏覽你的新網站!
 ####注意`your-name`要換成你的github帳號
+
+
+##影片示範
+<iframe width="640" height="480" src="https://www.youtube.com/embed/Xm-8Zu8NNSE?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

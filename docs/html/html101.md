@@ -25,7 +25,14 @@ head元素：標記HTML檔案頭，包含不在正文中顯示的關鍵字、標
 title元素：標記HTML檔案的標題。
 body元素：標記HTML檔案正文的開始和結束。
 
+##實際動手做
+說了這麼多,建議大家實際練習看看,就可以知道什麼是html了,[Codecademy](http://www.codecademy.com/)是一個線上學習程式的網站,他提供了一個很棒的html教學,花個幾分鐘玩玩看吧!
+
+####[連結](http://www.codecademy.com/en/tracks/web)
+
+##video
+<iframe width="640" height="480" src="https://www.youtube.com/embed/69uoNoaS3Ig" frameborder="0" allowfullscreen></iframe>
+
 ##reference
 * [wiki](http://zh.wikipedia.org/wiki/HTML)
-
-http://www.codecademy.com/en/tracks/web
+* [HTML Tutorial - W3Schools](http://www.w3schools.com/html/)

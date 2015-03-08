@@ -14,7 +14,5 @@ pages:
 - [html/html101.md,'HTML','Introduction']
 - [html/development_tool.md,'HTML','Development Tools']
 
-
-
-
+google_analytics: ['UA-60507351-1', 'http://ocowchun.github.io/web101/']
 # theme: readthedocs

@@ -3,6 +3,9 @@
 這裏記錄了開發網站的基本技巧，希望可以幫助對開發網站有興趣的朋友,學會建立網站需要的相關技術
 
 ##changelog
+####2015.03.15
+* 加入[JavaScript Introduction](javascripts/introduction.md)
+
 ####2015.03.08
 * 加入示範影片到[HTML Introduction](html/html101.md),補充連結與資訊
 

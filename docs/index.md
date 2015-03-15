@@ -5,6 +5,7 @@
 ##changelog
 ####2015.03.15
 * 加入[JavaScript Introduction](javascripts/introduction.md)
+* 加入bower示範影片到[Development Tools](html/development_tool.md)
 
 ####2015.03.08
 * 加入示範影片到[HTML Introduction](html/html101.md),補充連結與資訊

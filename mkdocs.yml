@@ -16,6 +16,8 @@ pages:
 - [html/html101.md,'HTML','Introduction']
 - [html/development_tool.md,'HTML','Development Tools']
 - [javascripts/introduction.md,'JavaScript','Introduction']
+- [javascripts/jquery.md,'JavaScript','jQuery']
+
 
 google_analytics: ['UA-60507351-1', 'auto']
 # theme: readthedocs

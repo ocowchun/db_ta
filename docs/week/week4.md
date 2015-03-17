@@ -4,12 +4,13 @@
 
 ###basic JavaScript
 >學習基本的JavaScript語法
-####[Codecademy-JavaScript](http://www.codecademy.com/en/tracks/javascript)
-####[nodeschool](http://nodeschool.io/)
 ####[JavaScript基本概念](../javascripts/introduction.md)
+####[nodeschool](http://nodeschool.io/)
+####[Codecademy-JavaScript](http://www.codecademy.com/en/tracks/javascript)
 
 ###jQuery
 >一個強大的pacakge,讓開發者輕鬆的操作DOM,使用ajax,甚至做簡單的動畫。
+####[jQuery基本概念](../javascripts/jquery.md)
 ####[Codecademy-jQuery](http://www.codecademy.com/en/tracks/jquery)
 
 ###web development tool

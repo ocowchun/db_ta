@@ -4,6 +4,9 @@
 
 如果想要更了解更多，可以看ihower 寫的[Ruby on Rails 簡介](https://ihower.tw/rails4/intro.html)
 
+**建議使用windows的朋友安裝[Ubuntu](http://www.ubuntu.com/)來開發**
+[使用VirtualBox安裝Ubuntu](http://youtu.be/55W5Hs55iDM)
+
 ###Ruby on Rails
 ####[RailsBridge 繁體中文版](http://zh-tw.railsbridge.org/docs/)
 建議各位由RailsBridge開始練習。

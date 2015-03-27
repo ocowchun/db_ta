@@ -26,6 +26,9 @@
 [repo](https://github.com/wxc900211/wxc900211.github.io)
 畫面很棒
 
+####https://github.com/zeus7777777/calculator
+[repo](https://github.com/zeus7777777/calculator)
+
 
 ##bad case
 ### avoid use `eval`
@@ -37,8 +40,6 @@ $('#btn_equal').on('click',function(){
 		if(operation == 3) { currentText = eval(memory) * eval(currentText);};//*
 		if(operation == 4) { currentText = eval(memory) / eval(currentText);};///
 		$('#message').text(currentText);
-
-
 	});					
 ```
 
@@ -51,3 +52,9 @@ $('#btn_equal').on('click',function(){
 
 ###use css instead of style
 [https://github.com/lovejess520/lovejess520.github.io/blob/master/index.html](https://github.com/lovejess520/lovejess520.github.io/blob/master/index.html)
+
+###有意義的內容(用'+-*/'取代1,2,3,4)
+https://github.com/ljs84714/calculator/blob/master/jquery/app/app.js
+
+###extract method
+

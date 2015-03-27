@@ -13,6 +13,7 @@ pages:
 - [week/week5.md,'week','week5']
 - [others/markdown.md,'others','Markdown']
 - [others/sublime.md,'others','Sublime Text']
+- [others/install_ubuntu.md,'others','Install Ubuntu']
 - [syllabus.md,'Syllabus']
 - [html/html101.md,'HTML','Introduction']
 - [html/development_tool.md,'HTML','Development Tools']

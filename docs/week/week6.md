@@ -6,7 +6,8 @@
 
 ####[Try Ruby](http://tryruby.org/levels/1/challenges/0)
 還不熟悉ruby語法的同學,可以跟著這個網站練習ruby的基本語法與程式風格。
-[ihower-Ruby 程式語言入門](https://ihower.tw/rails4/ruby.html)
+
+####[ihower-Ruby 程式語言入門](https://ihower.tw/rails4/ruby.html)
 
 ###CRUD
 CRUD是Create,Read,Update,Delete這四個資料庫基本操作的縮寫,這邊會討論如何使用rails來完成這些基本操作。

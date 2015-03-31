@@ -14,3 +14,6 @@ https://www.evernote.com/shard/s145/sh/e3ef3c80-631e-46da-9d2d-e0e0c33bb346/3709
 cd
 ls
 mkdir
+
+
+問同學 ,為什麼要學這些東西,為什麼這禮拜要教CRUD,Migration,資料庫操作

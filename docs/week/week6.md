@@ -1,6 +1,6 @@
 #week5-Ruby on Rails part 2
 ####上課日期:4/2
->本週一樣是學習Ruby on Rails,會講到如何從到有完成CRUD,什麼是Migration,還有基本的資料表操作
+>本週一樣是學習Ruby on Rails,會講到如何從無到有完成CRUD,什麼是Migration,還有基本的資料表操作
 
 ###熟悉ruby語法
 

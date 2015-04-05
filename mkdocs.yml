@@ -3,7 +3,7 @@ pages:
 - [index.md, Home]
 - [about.md, About]
 - ['git/git_index.md', 'Git',"Introduction"]
-- [git/git_video.md,'Git','video']
+- [git/git_video.md,'Git','Videos']
 - [git/readme101.md,'Git','README']
 - [git/github_page.md,'Git','Github Pages']
 - [week/week1.md,'week','week1']
@@ -20,6 +20,8 @@ pages:
 - [html/development_tool.md,'HTML','Development Tools']
 - [javascripts/introduction.md,'JavaScript','Introduction']
 - [javascripts/jquery.md,'JavaScript','jQuery']
+- [rails/rails101.md,'Rails','Introduction']
+- [rails/videos.md,'Rails','Videos']
 
 
 google_analytics: ['UA-60507351-1', 'auto']

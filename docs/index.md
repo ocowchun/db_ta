@@ -3,6 +3,11 @@
 這裏記錄了開發網站的基本技巧，希望可以幫助對開發網站有興趣的朋友,學會建立網站需要的相關技術
 
 ##changelog
+####2015.04.05
+* 加入[Rails101](rails/rails101.md)
+* 加入[Rails Videos](rails/videos.md)
+
+
 ####2015.03.31
 * 加入[week6](week/week6.md)
 

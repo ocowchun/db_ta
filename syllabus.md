@@ -84,8 +84,11 @@ a,p,div,input,form,ul,li...etc
 ###作業
 簡單的待做清單
 
-##week7-basic Ruby
+##week7-Ruby and OOP
 ####上課日期:4/9
+active record callback
+controller
+view helper
 
 ##week8-frontend ninja1
 ####上課日期:4/16

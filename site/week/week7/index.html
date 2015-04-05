@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-        <title>README - Web 101</title>
+        <title>week7 - Web 101</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -69,24 +69,24 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Git <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             <li >
-                                <a href="../git_index">Introduction</a>
+                                <a href="../../git/git_index">Introduction</a>
                             </li>
                         
                             <li >
-                                <a href="../git_video">Videos</a>
-                            </li>
-                        
-                            <li class="active">
-                                <a href=".">README</a>
+                                <a href="../../git/git_video">Videos</a>
                             </li>
                         
                             <li >
-                                <a href="../github_page">Github Pages</a>
+                                <a href="../../git/readme101">README</a>
+                            </li>
+                        
+                            <li >
+                                <a href="../../git/github_page">Github Pages</a>
                             </li>
                         
                         </ul>
@@ -94,36 +94,36 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">week <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             <li >
-                                <a href="../../week/week1">week1</a>
+                                <a href="../week1">week1</a>
                             </li>
                         
                             <li >
-                                <a href="../../week/week2">week2</a>
+                                <a href="../week2">week2</a>
                             </li>
                         
                             <li >
-                                <a href="../../week/week3">week3</a>
+                                <a href="../week3">week3</a>
                             </li>
                         
                             <li >
-                                <a href="../../week/week4">week4</a>
+                                <a href="../week4">week4</a>
                             </li>
                         
                             <li >
-                                <a href="../../week/week5">week5</a>
+                                <a href="../week5">week5</a>
                             </li>
                         
                             <li >
-                                <a href="../../week/week6">week6</a>
+                                <a href="../week6">week6</a>
                             </li>
                         
-                            <li >
-                                <a href="../../week/week7">week7</a>
+                            <li class="active">
+                                <a href=".">week7</a>
                             </li>
                         
                         </ul>
@@ -217,12 +217,12 @@
                 
                 
                 <li >
-                    <a rel="next" href="../git_video">
+                    <a rel="next" href="../week6">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../github_page">
+                    <a rel="prev" href="../../others/markdown">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -239,43 +239,73 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#readme">README</a></li>
+        <li class="main active"><a href="#week7-ruby-on-rails-part-2">week7-Ruby on Rails part 2</a></li>
         
-            <li><a href="#_1">延伸閱讀</a></li>
+            <li><a href="#49">上課日期:4/9</a></li>
+        
+            <li><a href="#controller">controller</a></li>
+        
+            <li><a href="#view-helper">view helper</a></li>
+        
+            <li><a href="#active-record-callback">active record callback</a></li>
+        
+            <li><a href="#validation">validation</a></li>
+        
+            <li><a href="#app">協助開發用app</a></li>
+        
+            <li><a href="#devise">devise(考慮中)</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="readme">README</h1>
-<p>README是一個簡單的純文字檔案,讓我們可以快速的瞭解有關這個專案的內容。
-一個基本的README,包含下面這些項目:</p>
+<h1 id="week7-ruby-on-rails-part-2">week7-Ruby on Rails part 2</h1>
+<h4 id="49">上課日期:4/9</h4>
+<blockquote>
+<p>本週一樣是學習Ruby on Rails,會解決controller如何回應不同的請求,與使用Filter來處理重複的程式碼,如何使用view helper來設計頁面,還有談到ActiveRecord的資料驗證。</p>
+</blockquote>
+<h2 id="controller">controller</h2>
+<h4 id="render-text">render text</h4>
+<p>使用不同的檔案格式回應(html,json,text..etc)</p>
+<h4 id="before_action">before_action</h4>
+<p>透過<code>before_action</code>,來減少重複的程式碼</p>
+<h4 id="application_controllerconcern">application_controller,concern</h4>
+<p>將多個controller都會用到的funtion move到controller,或是concern
+如果全部controller或幾乎全部都會用到=&gt; application_controller
+少數幾個controller會用到=&gt;concern</p>
+<h2 id="view-helper">view helper</h2>
+<p>用來協助html開發</p>
+<h3 id="bulitin-helper">bulitin helper</h3>
 <ul>
-<li>專案的名字</li>
-<li>這個專案在做什麼</li>
-<li>簡單的使用方式(如果這是一個library)</li>
-<li>copyright</li>
+<li>form_for</li>
+<li>form_tag</li>
+<li>link_to</li>
 </ul>
-<p>i.e.</p>
-<pre><code class="md">## License
-
-MIT © [ocowchun](ocowchun@gmail.com)
+<h4 id="custom-helper">custom helper</h4>
+<p>覺得內建的不夠,那你也可以自己針對需求客製化專門的helper function</p>
+<h2 id="active-record-callback">active record callback</h2>
+<h4 id="before_save">before_save</h4>
+<h4 id="before_create">before_create</h4>
+<h4 id="after_update">after_update</h4>
+<h2 id="validation">validation</h2>
+<h2 id="app">協助開發用app</h2>
+<pre><code class="ruby">  gem 'sqlite3'
+  gem &quot;awesome_print&quot;, require:&quot;ap&quot;
+  gem 'meta_request'
+  gem 'brakeman', :require =&gt; false
+  gem 'immigrant'
+  gem 'pry-rails'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'rubocop', require: false
+  gem 'quiet_assets'
+  gem &quot;teaspoon&quot;
 </code></pre>
 
-<ul>
-<li>如何安裝,設定,執行program</li>
-<li>作者名稱</li>
-<li>如何sublmit bugs,feedback</li>
-<li>其他聯絡方式(email)</li>
-</ul>
-<h2 id="_1">延伸閱讀</h2>
-<ul>
-<li><a href="https://coderwall.com/p/fy05hq/how-to-make-beautiful-github-readme">How to make beautiful Github README</a></li>
-<li><a href="http://stackoverflow.com/questions/2304863/how-to-write-a-good-readme">How to write a good README</a></li>
-<li><a href="https://robots.thoughtbot.com/how-to-write-a-great-readme">How To Write A Great README</a></li>
-<li><a href="http://code.tutsplus.com/tutorials/open-source-101-licensing--cms-21279">Open Source 101: Licensing</a></li>
-</ul>
+<h2 id="devise">devise(考慮中)</h2>
+<h4 id="how-to-create-user-model">how to create user model</h4>
+<h4 id="how-to-add-facebook-login">how to add facebook login</h4>
 </div>
             
         </div>

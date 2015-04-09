@@ -2,11 +2,22 @@
 ####上課日期:4/9
 >本週一樣是學習Ruby on Rails,會解決controller如何回應不同的請求,與使用Filter來處理重複的程式碼,如何使用view helper來設計頁面,還有談到ActiveRecord的資料驗證。
 
+##route
+[Rails 路由：深入淺出](http://rails.ruby.tw/routing.html)
+資源式路由
+單數資源
+命名空間與路由
+新增更多資源式路由
+
+##params
+http://rails.ruby.tw/action_controller_overview.html#%E5%8F%83%E6%95%B8
+
 ##controller
 ####render text
 使用不同的檔案格式回應(html,json,text..etc)
 
 ####before_action
+http://rails.ruby.tw/action_controller_overview.html#%E6%BF%BE%E5%8B%95%E5%99%A8
 透過`before_action`,來減少重複的程式碼
 
 ####application_controller,concern
@@ -30,24 +41,16 @@
 ####before_create
 ####after_update
 
+
 ##validation
 
 ##協助開發用app
 ```ruby
-  gem 'sqlite3'
-  gem "awesome_print", require:"ap"
-  gem 'meta_request'
-  gem 'brakeman', :require => false
-  gem 'immigrant'
   gem 'pry-rails'
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'rubocop', require: false
   gem 'quiet_assets'
-  gem "teaspoon"
 ```
 
-##devise(考慮中)
-
-####how to create user model
-####how to add facebook login
+##作業
+todo app

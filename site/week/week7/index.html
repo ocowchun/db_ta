@@ -243,6 +243,10 @@
         
             <li><a href="#49">上課日期:4/9</a></li>
         
+            <li><a href="#route">route</a></li>
+        
+            <li><a href="#params">params</a></li>
+        
             <li><a href="#controller">controller</a></li>
         
             <li><a href="#view-helper">view helper</a></li>
@@ -253,7 +257,7 @@
         
             <li><a href="#app">協助開發用app</a></li>
         
-            <li><a href="#devise">devise(考慮中)</a></li>
+            <li><a href="#_1">作業</a></li>
         
     
     </ul>
@@ -265,11 +269,20 @@
 <blockquote>
 <p>本週一樣是學習Ruby on Rails,會解決controller如何回應不同的請求,與使用Filter來處理重複的程式碼,如何使用view helper來設計頁面,還有談到ActiveRecord的資料驗證。</p>
 </blockquote>
+<h2 id="route">route</h2>
+<p><a href="http://rails.ruby.tw/routing.html">Rails 路由：深入淺出</a>
+資源式路由
+單數資源
+命名空間與路由
+新增更多資源式路由</p>
+<h2 id="params">params</h2>
+<p>http://rails.ruby.tw/action_controller_overview.html#%E5%8F%83%E6%95%B8</p>
 <h2 id="controller">controller</h2>
 <h4 id="render-text">render text</h4>
 <p>使用不同的檔案格式回應(html,json,text..etc)</p>
 <h4 id="before_action">before_action</h4>
-<p>透過<code>before_action</code>,來減少重複的程式碼</p>
+<p>http://rails.ruby.tw/action_controller_overview.html#%E6%BF%BE%E5%8B%95%E5%99%A8
+透過<code>before_action</code>,來減少重複的程式碼</p>
 <h4 id="application_controllerconcern">application_controller,concern</h4>
 <p>將多個controller都會用到的funtion move到controller,或是concern
 如果全部controller或幾乎全部都會用到=&gt; application_controller
@@ -290,22 +303,14 @@
 <h4 id="after_update">after_update</h4>
 <h2 id="validation">validation</h2>
 <h2 id="app">協助開發用app</h2>
-<pre><code class="ruby">  gem 'sqlite3'
-  gem &quot;awesome_print&quot;, require:&quot;ap&quot;
-  gem 'meta_request'
-  gem 'brakeman', :require =&gt; false
-  gem 'immigrant'
-  gem 'pry-rails'
+<pre><code class="ruby">  gem 'pry-rails'
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'rubocop', require: false
   gem 'quiet_assets'
-  gem &quot;teaspoon&quot;
 </code></pre>
 
-<h2 id="devise">devise(考慮中)</h2>
-<h4 id="how-to-create-user-model">how to create user model</h4>
-<h4 id="how-to-add-facebook-login">how to add facebook login</h4>
+<h2 id="_1">作業</h2>
+<p>todo app</p>
 </div>
             
         </div>

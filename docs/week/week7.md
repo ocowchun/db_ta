@@ -3,46 +3,34 @@
 >本週一樣是學習Ruby on Rails,會解決controller如何回應不同的請求,與使用Filter來處理重複的程式碼,如何使用view helper來設計頁面,還有談到ActiveRecord的資料驗證。
 
 ##route
-[Rails 路由：深入淺出](http://rails.ruby.tw/routing.html)
-資源式路由
-單數資源
-命名空間與路由
-新增更多資源式路由
+>路由是用來將request對應到正確的controller與action的設定
 
-##params
-http://rails.ruby.tw/action_controller_overview.html#%E5%8F%83%E6%95%B8
+[Rails 路由：深入淺出](http://rails.ruby.tw/routing.html)
+[ihower-路由(Routing)](https://ihower.tw/rails4/routing.html)
+
 
 ##controller
-####render text
-使用不同的檔案格式回應(html,json,text..etc)
+>controller負責處理請求，包含與Model溝通，做出正確的回應。
 
-####before_action
-http://rails.ruby.tw/action_controller_overview.html#%E6%BF%BE%E5%8B%95%E5%99%A8
-透過`before_action`,來減少重複的程式碼
+###params
+[RailsGuide-參數](http://rails.ruby.tw/action_controller_overview.html#%E5%8F%83%E6%95%B8)
 
-####application_controller,concern
-將多個controller都會用到的funtion move到controller,或是concern
-如果全部controller或幾乎全部都會用到=> application_controller
-少數幾個controller會用到=>concern
+###filter
+>透過filter,來減少controller中重複的程式碼。
+
+[RailsGuide-濾動器](http://rails.ruby.tw/action_controller_overview.html#%E6%BF%BE%E5%8B%95%E5%99%A8)
 
 ##view helper
-用來協助html開發
+>用來協助html開發
 
-###bulitin helper
-* form_for
-* form_tag
-* link_to
+[ihower-Action View - Helpers 方法](https://ihower.tw/rails4/actionview-helpers.html)
 
-####custom helper
-覺得內建的不夠,那你也可以自己針對需求客製化專門的helper function
+##Active Record回呼
+>如何在Active Record的生命週期中回應特定事件。
 
-##active record callback
-####before_save
-####before_create
-####after_update
+[RailsGuide-Active Record 回呼](http://rails.ruby.tw/active_record_callbacks.html)
+[ihower-ActiveRecord - 資料驗證及回呼](https://ihower.tw/rails4/activerecord-lifecycle.html)
 
-
-##validation
 
 ##協助開發用app
 ```ruby

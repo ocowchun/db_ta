@@ -245,15 +245,11 @@
         
             <li><a href="#route">route</a></li>
         
-            <li><a href="#params">params</a></li>
-        
             <li><a href="#controller">controller</a></li>
         
             <li><a href="#view-helper">view helper</a></li>
         
-            <li><a href="#active-record-callback">active record callback</a></li>
-        
-            <li><a href="#validation">validation</a></li>
+            <li><a href="#active-record">Active Record回呼</a></li>
         
             <li><a href="#app">協助開發用app</a></li>
         
@@ -270,38 +266,33 @@
 <p>本週一樣是學習Ruby on Rails,會解決controller如何回應不同的請求,與使用Filter來處理重複的程式碼,如何使用view helper來設計頁面,還有談到ActiveRecord的資料驗證。</p>
 </blockquote>
 <h2 id="route">route</h2>
+<blockquote>
+<p>路由是用來將request對應到正確的controller與action的設定</p>
+</blockquote>
 <p><a href="http://rails.ruby.tw/routing.html">Rails 路由：深入淺出</a>
-資源式路由
-單數資源
-命名空間與路由
-新增更多資源式路由</p>
-<h2 id="params">params</h2>
-<p>http://rails.ruby.tw/action_controller_overview.html#%E5%8F%83%E6%95%B8</p>
+<a href="https://ihower.tw/rails4/routing.html">ihower-路由(Routing)</a></p>
 <h2 id="controller">controller</h2>
-<h4 id="render-text">render text</h4>
-<p>使用不同的檔案格式回應(html,json,text..etc)</p>
-<h4 id="before_action">before_action</h4>
-<p>http://rails.ruby.tw/action_controller_overview.html#%E6%BF%BE%E5%8B%95%E5%99%A8
-透過<code>before_action</code>,來減少重複的程式碼</p>
-<h4 id="application_controllerconcern">application_controller,concern</h4>
-<p>將多個controller都會用到的funtion move到controller,或是concern
-如果全部controller或幾乎全部都會用到=&gt; application_controller
-少數幾個controller會用到=&gt;concern</p>
+<blockquote>
+<p>controller負責處理請求，包含與Model溝通，做出正確的回應。</p>
+</blockquote>
+<h3 id="params">params</h3>
+<p><a href="http://rails.ruby.tw/action_controller_overview.html#%E5%8F%83%E6%95%B8">RailsGuide-參數</a></p>
+<h3 id="filter">filter</h3>
+<blockquote>
+<p>透過filter,來減少controller中重複的程式碼。</p>
+</blockquote>
+<p><a href="http://rails.ruby.tw/action_controller_overview.html#%E6%BF%BE%E5%8B%95%E5%99%A8">RailsGuide-濾動器</a></p>
 <h2 id="view-helper">view helper</h2>
+<blockquote>
 <p>用來協助html開發</p>
-<h3 id="bulitin-helper">bulitin helper</h3>
-<ul>
-<li>form_for</li>
-<li>form_tag</li>
-<li>link_to</li>
-</ul>
-<h4 id="custom-helper">custom helper</h4>
-<p>覺得內建的不夠,那你也可以自己針對需求客製化專門的helper function</p>
-<h2 id="active-record-callback">active record callback</h2>
-<h4 id="before_save">before_save</h4>
-<h4 id="before_create">before_create</h4>
-<h4 id="after_update">after_update</h4>
-<h2 id="validation">validation</h2>
+</blockquote>
+<p><a href="https://ihower.tw/rails4/actionview-helpers.html">ihower-Action View - Helpers 方法</a></p>
+<h2 id="active-record">Active Record回呼</h2>
+<blockquote>
+<p>如何在Active Record的生命週期中回應特定事件。</p>
+</blockquote>
+<p><a href="http://rails.ruby.tw/active_record_callbacks.html">RailsGuide-Active Record 回呼</a>
+<a href="https://ihower.tw/rails4/activerecord-lifecycle.html">ihower-ActiveRecord - 資料驗證及回呼</a></p>
 <h2 id="app">協助開發用app</h2>
 <pre><code class="ruby">  gem 'pry-rails'
   gem 'better_errors'

@@ -1,4 +1,4 @@
-#week7-Ruby on Rails part 2
+#week7-Ruby on Rails part 3
 ####上課日期:4/9
 >本週一樣是學習Ruby on Rails,會解決controller如何回應不同的請求,與使用Filter來處理重複的程式碼,如何使用view helper來設計頁面,還有談到ActiveRecord的資料驗證。
 

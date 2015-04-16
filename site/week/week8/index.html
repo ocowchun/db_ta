@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-        <title>Introduction - Web 101</title>
+        <title>week8 - Web 101</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -69,24 +69,24 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Git <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
-                            <li class="active">
-                                <a href=".">Introduction</a>
+                            <li >
+                                <a href="../../git/git_index">Introduction</a>
                             </li>
                         
                             <li >
-                                <a href="../git_video">Videos</a>
+                                <a href="../../git/git_video">Videos</a>
                             </li>
                         
                             <li >
-                                <a href="../readme101">README</a>
+                                <a href="../../git/readme101">README</a>
                             </li>
                         
                             <li >
-                                <a href="../github_page">Github Pages</a>
+                                <a href="../../git/github_page">Github Pages</a>
                             </li>
                         
                         </ul>
@@ -94,40 +94,40 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">week <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             <li >
-                                <a href="../../week/week1">week1</a>
+                                <a href="../week1">week1</a>
                             </li>
                         
                             <li >
-                                <a href="../../week/week2">week2</a>
+                                <a href="../week2">week2</a>
                             </li>
                         
                             <li >
-                                <a href="../../week/week3">week3</a>
+                                <a href="../week3">week3</a>
                             </li>
                         
                             <li >
-                                <a href="../../week/week4">week4</a>
+                                <a href="../week4">week4</a>
                             </li>
                         
                             <li >
-                                <a href="../../week/week5">week5</a>
+                                <a href="../week5">week5</a>
                             </li>
                         
                             <li >
-                                <a href="../../week/week6">week6</a>
+                                <a href="../week6">week6</a>
                             </li>
                         
                             <li >
-                                <a href="../../week/week7">week7</a>
+                                <a href="../week7">week7</a>
                             </li>
                         
-                            <li >
-                                <a href="../../week/week8">week8</a>
+                            <li class="active">
+                                <a href=".">week8</a>
                             </li>
                         
                         </ul>
@@ -221,12 +221,12 @@
                 
                 
                 <li >
-                    <a rel="next" href="../../about">
+                    <a rel="next" href="../week7">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../git_video">
+                    <a rel="prev" href="../../others/markdown">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -243,171 +243,47 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#git">Git</a></li>
+        <li class="main active"><a href="#week8-speed-your-project">week8-Speed Your Project</a></li>
         
-            <li><a href="#_1">版本控制的原因</a></li>
+            <li><a href="#416">上課日期:4/16</a></li>
         
-            <li><a href="#git_1">什麼是Git</a></li>
+            <li><a href="#sublime-ruby-format">sublime ruby format</a></li>
         
-            <li><a href="#_2">直接動手試試看吧</a></li>
+            <li><a href="#bootstrap">bootstrap</a></li>
         
-            <li><a href="#_3">術語</a></li>
+            <li><a href="#font-awesome">Font Awesome</a></li>
         
-            <li><a href="#video">Video</a></li>
+            <li><a href="#trello">Trello</a></li>
         
-            <li><a href="#_4">基本指令</a></li>
-        
-            <li><a href="#reference">reference</a></li>
+            <li><a href="#git-flow">git flow</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="git">Git</h1>
-<h2 id="_1">版本控制的原因</h2>
-<p>在專案的開發過程中，會不停地產生新的程式碼，而產生程式碼的過程很可能會遇到檔案被別人覆蓋，或是不知道誰改了某段程式碼，又或者想要復原回到前幾天的版本，因此我們需要一個版本控制系統來協助我們控制專案的版本，讓我們可以專心於開發程式。</p>
-<h2 id="git_1">什麼是Git</h2>
-<p>Git是一個分布式版本控制／軟體配置管理軟體，原是Linux核心開發者林納斯·托瓦茲（Linus Torvalds）為更好地管理Linux核心開發而設計。具有分散式、效能好、本地存取、無痛分支的特性。</p>
-<h2 id="_2">直接動手試試看吧</h2>
-<p>說那麼多,實際操作一遍基本的git指令,或許比較容易了解。</p>
-<h4 id="try-git"><a href="https://try.github.io/levels/1/challenges/1">try git</a></h4>
-<h2 id="_3">術語</h2>
-<h4 id="repository">檔案庫（Repository）</h4>
-<p>存儲檔案的新版本還有歷史資料的地方，通常是在伺服器上。</p>
-<h4 id="commit">提交（Commit）</h4>
-<p>將本地端的修改送回檔案庫。（由版本控制軟體處理「跟上次更動相比，哪個檔案又被更動」的事）</p>
-<h4 id="change">變更（Change）</h4>
-<p>對一份文件作的特定更動。</p>
-<h4 id="check-out">取出（Check-Out）</h4>
-<p>從檔案庫取出檔案到本地端（客戶端）</p>
-<h4 id="update">更新（Update）</h4>
-<p>將檔案庫的修改送到本地端</p>
-<h4 id="merge-integration">合併（Merge / Integration）</h4>
-<p>合併各個改變。</p>
-<h2 id="video">Video</h2>
-<h3 id="github-git-foundations"><a href="../git_video">GitHub &amp; Git Foundations</a></h3>
-<p>收看由github錄製的教學影片，快速上手git</p>
-<h2 id="_4">基本指令</h2>
-<p>建立Git Repository
-<pre>
-$ git init
-</pre></p>
-<p>檢視專案目前的狀態
-<pre>
-$ git status
-</pre></p>
-<p>將檔案的變動加到staging area
-<pre>
-$ git add
-</pre></p>
-<p>提交變動
-<pre>
-$ git commit
-</pre></p>
-<p>查看之前的commit
-<pre>
-$ git log
-</pre></p>
-<p>加入遠端repository,(主要的遠端repository會命名為origin)
-<pre>
-$ git remote add remote_name remote_url
-</pre></p>
-<p>將本機的commit提交到遠端加入遠端repository(-u 告訴Git記住這組參數，所以下次你只需要執行git push,Git就知道要怎麼做)
-<pre>
-$ git push -u origin master
-</pre></p>
-<p>將遠端repository的變動加入本機
-<pre>
-$ git pull origin master
-</pre></p>
-<p>檢視自從最後一次commit之後的變動
-<pre>
-$ git diff HEAD
-</pre></p>
-<p>移除staging area的檔案
-<pre>
-$ git reset file_name
- </pre></p>
-<p>將檔案變回最後一次commit時的狀態
-<pre>
-$ git checkout -- octocat.txt <br />
-</pre></p>
-<p>當我們在開發新的功能或修改bug的時候，通常我們會建立一個新的分支。完成任務之後，將分支合併回去。
-<pre>
-$ git branch branch_name
-</pre></p>
-<p>切換目前的所在分支
-<pre>
-$ git checkout branch_name 
-</pre></p>
-<p>顯示本地分支
-<code>$ git branch</code></p>
-<p>刪除檔案
-<pre>
-$ git rm file_name
-</pre></p>
-<p>合併指定分支到目前分支
-<pre>
-$ git merge branch_name
-</pre></p>
-<p>刪除分支
-<pre>
-$ git branch -d clean_up
-</pre></p>
-<p>複製別人的Repository
-<pre>
-$ git clone remote_repo_url
-</pre></p>
-<h3 id="git_2">Git基本操作</h3>
-<h4 id="repository_1">建立Repository</h4>
-<p><pre>
-$ mkdir my_first_project
-$ cd my_first_project
-$ git init
-</pre>
-以上指令會產生一個<code>my_first_project</code>的資料夾，並建立Repository。</p>
-<h4 id="commit_1">提交Commit</h4>
-<p><pre>
-$ touch README.md
-$ git add README.md
-$ git status
-$ git commit -m "First Commit"
-</pre>
-以上指令會產生一個<code>README.md</code>的檔案，並提交變更。</p>
-<h4 id="_5">檢視檔案差異,提交變更</h4>
-<p><pre>
-編輯 README 做些變更
-$ git status
-$ git diff
-$ git add .  (一次加入所有變更跟新增檔案，但不包括刪除的檔案!)
-$ git status
-$ git diff --cached
-$ git commit -m “Update README”
-</pre>
-以上指令會檢視readme檔案的變化，然後提交變更</p>
-<h4 id="repositoryrepository">將本機Repository加入遠端Repository,並提交變更</h4>
-<p><pre>
-$ git remote add origin git@github.com:ocowchun/git_test.git
-$ git push -u origin master
-</pre></p>
-<h4 id="repository_2">將遠端Repository的變動加入本機</h4>
-<p><pre>
-$ git pull origin master
-</pre></p>
-<h4 id="repository_3">複製別人的Repository</h4>
-<p><pre>
-$ git clone git@github.com:ocowchun/git_test.git
-</pre></p>
-<h2 id="reference">reference</h2>
-<ol>
-<li><a href="http://ihower.tw/git/vcs.html">ihower-版本控制系統</a></li>
-<li><a href="http://ihower.tw/git/intro.html">ihower-Git 簡介</a></li>
-<li><a href="http://www.slideshare.net/littlebtc/git-5528339">littlebtc-寫給大家的git教學</a></li>
-<li><a href="http://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/">gogojimmy-Git 的基本使用</a></li>
-<li><a href="http://zh.wikipedia.org/wiki/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6">wiki-版本控制</a></li>
-<li><a href="https://mac.github.com/">Github Mac</a></li>
-</ol>
+<h1 id="week8-speed-your-project">week8-Speed Your Project</h1>
+<h4 id="416">上課日期:4/16</h4>
+<script async class="speakerdeck-embed" data-id="071155b7b2de4b65bca1fda3615e8e1a" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+<h2 id="sublime-ruby-format">sublime ruby format</h2>
+<p>幫你排好ruby code的格式</p>
+<h2 id="bootstrap">bootstrap</h2>
+<blockquote>
+<p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</p>
+</blockquote>
+<h4 id="bootstrap_1"><a href="http://getbootstrap.com/">bootstrap</a></h4>
+<h4 id="bootstrap-sass"><a href="https://github.com/twbs/bootstrap-sass">bootstrap-sass</a></h4>
+<h2 id="font-awesome">Font Awesome</h2>
+<h4 id="font-awesome_1"><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></h4>
+<h4 id="font-awesome-rails"><a href="https://github.com/bokmann/font-awesome-rails">font-awesome-rails</a></h4>
+<h2 id="trello">Trello</h2>
+<blockquote>
+<p>Trello is the free, flexible, and visual way to organize anything with anyone.</p>
+</blockquote>
+<h4 id="trello_1"><a href="https://trello.com/">Trello</a></h4>
+<h2 id="git-flow">git flow</h2>
+<p><a href="https://ihower.tw/blog/archives/5140">https://ihower.tw/blog/archives/5140</a></p>
 </div>
             
         </div>

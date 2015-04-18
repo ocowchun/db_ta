@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-        <title>Markdown - Web 101</title>
+        <title>Ajax - Web 101</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -135,20 +135,20 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">others <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
-                            <li class="active">
-                                <a href=".">Markdown</a>
+                            <li >
+                                <a href="../../others/markdown">Markdown</a>
                             </li>
                         
                             <li >
-                                <a href="../sublime">Sublime Text</a>
+                                <a href="../../others/sublime">Sublime Text</a>
                             </li>
                         
                             <li >
-                                <a href="../install_ubuntu">Install Ubuntu</a>
+                                <a href="../../others/install_ubuntu">Install Ubuntu</a>
                             </li>
                         
                         </ul>
@@ -196,20 +196,20 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rails <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             <li >
-                                <a href="../../rails/rails101">Introduction</a>
+                                <a href="../rails101">Introduction</a>
                             </li>
                         
                             <li >
-                                <a href="../../rails/videos">Videos</a>
+                                <a href="../videos">Videos</a>
                             </li>
                         
-                            <li >
-                                <a href="../../rails/ajax">Ajax</a>
+                            <li class="active">
+                                <a href=".">Ajax</a>
                             </li>
                         
                         </ul>
@@ -225,12 +225,12 @@
                 
                 
                 <li >
-                    <a rel="next" href="../../week/week8">
+                    <a rel="next" href="../videos">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="../sublime">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -247,110 +247,33 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#markdown">Markdown</a></li>
+        <li class="main active"><a href="#ajax">Ajax</a></li>
         
-            <li><a href="#_1">常用語法</a></li>
+            <li><a href="#railsajax-part1">在Rails使用Ajax part1</a></li>
         
-    
-        <li class="main "><a href="#hello-world">Hello World</a></li>
+            <li><a href="#railsajax-part2">在Rails使用Ajax part2</a></li>
         
-            <li><a href="#_3">大家好</a></li>
-        
-            <li><a href="#_8">大俠愛吃漢堡包</a></li>
-        
-            <li><a href="#gfm">GFM</a></li>
+            <li><a href="#reference">reference</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="markdown">Markdown</h1>
+<h1 id="ajax">Ajax</h1>
 <blockquote>
-<p>Markdown的目標是實現「易讀易寫」。</p>
+<p>AJAX指的是一套綜合了多項技術的瀏覽器端網頁開發技術，AJAX應用可以僅向伺服器傳送並取回必須的資料，並在客戶端採用JavaScript處理來自伺服器的回應。因為在伺服器和瀏覽器之間交換的資料大量減少，伺服器回應更快了。很多的處理工作可以在發出請求的客戶端機器上完成，因此Web伺服器的負荷也減少了。(摘錄自維基百科)</p>
 </blockquote>
-<p>在網路上，很流行使用Markdown來編寫文件，因為可以用非常簡單的語法完成基本的文件編輯。
-這個教學文件就是使用Markdown完成的</p>
-<h2 id="_1">常用語法</h2>
-<h3 id="_2">標題</h3>
-<p>在行首插入1到6個<code>#</code>,會把該行文字變為標題(字體大小與插入的<code>#</code>數成反比)
-例如:</p>
-<pre><code class="md">#Hello World
-##大家好
-###今天天氣真好
-</code></pre>
-
-<h1 id="hello-world">Hello World</h1>
-<h2 id="_3">大家好</h2>
-<h3 id="_4">今天天氣真好</h3>
-<h3 id="_5">區塊引言</h3>
-<p>在引言的第一行行首加上<code>&gt;</code></p>
-<pre><code class="md">&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-</code></pre>
-
-<blockquote>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-</blockquote>
-<h3 id="_6">清單</h3>
-<p>Markdown支援有序清單和無序清單。</p>
-<p>無序清單使用星號、加號或是減號作為清單標記：</p>
-<pre><code class="md">*   Red
-*   Green
-*   Blue
-</code></pre>
-
-<p>會產生
-<em>   Red
-</em>   Green
-*   Blue</p>
-<p>有序清單則使用數字接著一個英文句點：</p>
-<pre><code class="md">1.  Bird
-2.  McHale
-3.  Parish
-</code></pre>
-
-<ol>
-<li>Bird</li>
-<li>McHale</li>
-<li>Parish</li>
-</ol>
-<h3 id="_7">分隔線</h3>
-<pre><code class="md">大俠愛吃漢堡包
----
-你不是大俠，你吃香蕉
-</code></pre>
-
-<h2 id="_8">大俠愛吃漢堡包</h2>
-<p>你不是大俠，你吃香蕉</p>
-<h3 id="_9">連結</h3>
-<pre><code class="md">[facebook](www.facebook.com)
-</code></pre>
-
-<p><a href="../../www.facebook.com">facebook</a></p>
-<h3 id="_10">圖片</h3>
-<pre><code class="md">![Alt text](/path/to/img.jpg)
-</code></pre>
-
-<p><img alt="Alt text" src="../..//path/to/img.jpg" /></p>
-<h2 id="gfm">GFM</h2>
-<blockquote>
-<p>GitHub uses "GitHub Flavored Markdown," or GFM, across the site--in issues, comments, and pull requests. It differs from standard Markdown (SM) in a few significant ways, and adds some additional functionality.</p>
-</blockquote>
-<h3 id="syntax-highlighting">Syntax highlighting</h3>
-<p>Code blocks can be taken a step further by adding syntax highlighting. In your fenced block, add an optional language identifier and we'll run it through syntax highlighting. For example, to syntax highlight Ruby code:</p>
-<pre><code class="ruby">require 'redcarpet'
-markdown = Redcarpet.new(&quot;Hello World!&quot;)
-puts markdown.to_html
-</code></pre>
-
-<h3 id="reference">reference與相關連結</h3>
-<ul>
-<li><a href="http://markdown.tw/">Markdown文件</a></li>
-<li><a href="https://help.github.com/articles/github-flavored-markdown/">GitHub Flavored Markdown</a></li>
-<li><a href="http://www.remarq.io/articles/five-minutes-to-markdown-mastery/">five-minutes-to-markdown-mastery</a></li>
-</ul>
+<h2 id="railsajax-part1">在Rails使用Ajax part1</h2>
+<h4 id="railsajax">簡單示範如何在rails中使用Ajax送出請求，並做出對應的處理方式。</h4>
+<p><iframe width="640" height="480" src="https://www.youtube.com/embed/OANDtWFGRs4" frameborder="0" allowfullscreen></iframe></p>
+<h2 id="railsajax-part2">在Rails使用Ajax part2</h2>
+<h4 id="part1serverjson">延伸part1，從server回傳json資料，來顯示錯誤訊息。</h4>
+<p><iframe width="640" height="480" src="https://www.youtube.com/embed/KU2RN_YtTwA" frameborder="0" allowfullscreen></iframe></p>
+<h2 id="reference">reference</h2>
+<h4 id="wiki-ajax"><a href="http://zh.wikipedia.org/wiki/AJAX">wiki-Ajax</a></h4>
+<h4 id="railsguide-rails-javascript"><a href="http://rails.ruby.tw/working_with_javascript_in_rails.html">RailsGuide-在 Rails 使用 JavaScript</a></h4>
+<h4 id="ihower-ajax"><a href="https://ihower.tw/rails4/ajax.html">ihower-Ajax 應用程式</a></h4>
 </div>
             
         </div>

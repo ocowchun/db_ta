@@ -7,3 +7,10 @@
 ##簡易查詢
 ####示範如何使用Active Record的查詢方法,建立搜尋功能,查詢符合條件的資料。
 <iframe width="640" height="480" src="https://www.youtube.com/embed/_rNOvYJCP9c" frameborder="0" allowfullscreen></iframe>
+
+##在Rails使用Ajax part1
+####簡單示範如何在rails中使用Ajax送出請求，並做出對應的處理方式。
+<iframe width="640" height="480" src="https://www.youtube.com/embed/OANDtWFGRs4" frameborder="0" allowfullscreen></iframe>
+
+##在Rails使用Ajax part2
+<iframe width="640" height="480" src="https://www.youtube.com/embed/KU2RN_YtTwA" frameborder="0" allowfullscreen></iframe>

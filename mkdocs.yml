@@ -24,6 +24,7 @@ pages:
 - [javascripts/jquery.md,'JavaScript','jQuery']
 - [rails/rails101.md,'Rails','Introduction']
 - [rails/videos.md,'Rails','Videos']
+- [rails/ajax.md,'Rails','Ajax']
 
 
 google_analytics: ['UA-60507351-1', 'auto']

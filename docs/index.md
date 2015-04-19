@@ -4,6 +4,9 @@
 
 ##changelog
 ####2015.04.18
+* 加入[User](rails/user.md)
+
+####2015.04.18
 * 加入[Ajax](rails/ajax.md)
 
 ####2015.04.13

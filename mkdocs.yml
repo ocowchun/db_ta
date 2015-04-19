@@ -25,6 +25,7 @@ pages:
 - [rails/rails101.md,'Rails','Introduction']
 - [rails/videos.md,'Rails','Videos']
 - [rails/ajax.md,'Rails','Ajax']
+- [rails/user.md,'Rails','User']
 
 
 google_analytics: ['UA-60507351-1', 'auto']

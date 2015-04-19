@@ -74,6 +74,9 @@ class ApplicationController < ActionController::Base
 end
 ```
 
+##devise示範影片
+<iframe width="640" height="480" src="https://www.youtube.com/embed/YnjbQrGMP2s" frameborder="0" allowfullscreen></iframe>
+
 ##reference
 ####[devise](https://github.com/plataformatec/devise)
 ####[ihower-使用者認證](https://ihower.tw/rails4/auth.html)

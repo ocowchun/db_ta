@@ -13,4 +13,8 @@
 <iframe width="640" height="480" src="https://www.youtube.com/embed/OANDtWFGRs4" frameborder="0" allowfullscreen></iframe>
 
 ##在Rails使用Ajax part2
+####延伸part1，從server回傳json資料，來顯示錯誤訊息。
 <iframe width="640" height="480" src="https://www.youtube.com/embed/KU2RN_YtTwA" frameborder="0" allowfullscreen></iframe>
+
+##devise示範影片
+<iframe width="640" height="480" src="https://www.youtube.com/embed/YnjbQrGMP2s" frameborder="0" allowfullscreen></iframe>

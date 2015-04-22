@@ -291,6 +291,18 @@
             <li><a href="#ihower-ajax">ihower-Ajax 應用程式</a></li>
         
     
+        <li class="main "><a href="#_1">分頁</a></li>
+        
+            <li><a href="#install">Install</a></li>
+        
+            <li><a href="#controller">Controller</a></li>
+        
+            <li><a href="#view">View</a></li>
+        
+    
+        <li class="main "><a href="#_2">期中考教室</a></li>
+        
+    
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -323,6 +335,23 @@
 </blockquote>
 <h4 id="railsguide-rails-javascript"><a href="http://rails.ruby.tw/working_with_javascript_in_rails.html">RailsGuide-在 Rails 使用 JavaScript</a></h4>
 <h4 id="ihower-ajax"><a href="https://ihower.tw/rails4/ajax.html">ihower-Ajax 應用程式</a></h4>
+<h2 id="_1">分頁</h2>
+<p><a href="https://github.com/amatsuda/kaminari">kaminari</a></p>
+<h3 id="install">Install</h3>
+<p>在<code>Gemfile</code>加入下面的程式碼</p>
+<pre><code>gem 'kaminari'
+</code></pre>
+
+<h3 id="controller">Controller</h3>
+<pre><code>@users = User.order(:name).page params[:page]
+</code></pre>
+
+<h3 id="view">View</h3>
+<pre><code>&lt;%= paginate @users %&gt;
+</code></pre>
+
+<h2 id="_2">期中考教室</h2>
+<p>4/30(四) 禮拜二的同學在商院101,禮拜三的同學在商院102</p>
 </div>
             
         </div>

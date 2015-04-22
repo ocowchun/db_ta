@@ -27,3 +27,27 @@ devise是一套使用者認證(Authentication)套件，是Rails社群中最廣�
 
 ####[RailsGuide-在 Rails 使用 JavaScript](http://rails.ruby.tw/working_with_javascript_in_rails.html)
 ####[ihower-Ajax 應用程式](https://ihower.tw/rails4/ajax.html)
+
+##分頁
+[kaminari](https://github.com/amatsuda/kaminari)
+
+###Install
+在`Gemfile`加入下面的程式碼
+```
+gem 'kaminari'
+```
+
+###Controller
+```
+@users = User.order(:name).page params[:page]
+```
+
+###View
+```
+<%= paginate @users %>
+```
+
+
+##期中考教室
+4/30(四) 禮拜二的同學在商院101,禮拜三的同學在商院102
+

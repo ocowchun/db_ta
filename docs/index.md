@@ -4,6 +4,9 @@
 
 ##changelog
 ####2015.04.19
+* 更新[week9](week/week9.md),加入分頁,期中考教室通知。
+
+####2015.04.19
 * 加入[User](rails/user.md)
 * 加入[week9](week/week9.md)
 

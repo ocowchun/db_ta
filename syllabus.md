@@ -104,40 +104,31 @@ view helper
 ###workflow
 [Automating Front-end Workflow](https://speakerdeck.com/addyosmani/automating-front-end-workflow)
 
-##week9-frontend ninja2
+##week9-Ruby on Rails part 4
 ####上課日期:4/23
-###sass
-CSS with superpowers
+##Devise
+##view helper
+##Active Record 驗證
+##Active Record回呼
+##Ajax
+##分頁
 
-###yeoman
-THE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS
 
-###gulp
-The streaming build system
+##week10-Relation
+####上課日期:5/7
 
-[sass](http://sass-lang.com/)
-[Automating Front-end Workflow](https://speakerdeck.com/addyosmani/automating-front-end-workflow)
-[yeoman](http://yeoman.io/)
-[gulp](http://gulpjs.com/)
+##relation
+###[ActiveRecord - 資料表關聯](https://ihower.tw/rails4/activerecord-relationships.html)
 
-##week10-chef and test kitchen!
-####上課日期:4/30
+##chart
+###[Chart.js](http://www.chartjs.org/)
+###[d3.js](http://d3js.org/)
+###[highcharts](http://www.highcharts.com/)
 
-###vagrant
-Create and configure lightweight, reproducible, and portable development environments.
-
-###chef
-IT automation for speed and awesomeness
-
-###test kitchen 
-Your infrastructure deserves tests too.
-
-[vagrant](https://www.vagrantup.com/)
-[chef](https://www.chef.io/chef/)
-[kitchen CI](http://kitchen.ci/)
+##import data to mysql
 
 ##week11-SQL
-####上課日期:5/7
+####上課日期:5/14
 ###什麼是sql
 * where
 * join
@@ -151,8 +142,21 @@ http://sqlschool.modeanalytics.com/
 出sql題目給同學寫(basic,advance,bonus)
 
 ##week12-how to deployment
-####上課日期:5/14
+####上課日期:5/21
+chef,capistrano and test kitchen!
 
+###vagrant
+Create and configure lightweight, reproducible, and portable development environments.
+
+###chef
+IT automation for speed and awesomeness
+
+###test kitchen 
+Your infrastructure deserves tests too.
+
+[vagrant](https://www.vagrantup.com/)
+[chef](https://www.chef.io/chef/)
+[kitchen CI](http://kitchen.ci/)
 
 
 

@@ -5,6 +5,12 @@
 ###[ihower-ActiveRecord - 資料表關聯](https://ihower.tw/rails4/activerecord-relationships.html)
 ###[RailsGuide-Active Record 關聯](http://rails.ruby.tw/association_basics.html)
 
+####ActiveRecord 關聯 part1 
+<iframe width="640" height="480" src="https://www.youtube.com/embed/QY3ziIWzMv4" frameborder="0" allowfullscreen></iframe>
+
+####ActiveRecord 關聯 part2
+<iframe width="640" height="480" src="https://www.youtube.com/embed/Rg8pVGeXzrs" frameborder="0" allowfullscreen></iframe>
+
 ##chart
 ###[highcharts](http://www.highcharts.com/)
 功能強大，不過商業使用需要付費。

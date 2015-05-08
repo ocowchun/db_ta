@@ -6,9 +6,13 @@
 
 搞清楚每個指令的意義!!!!
 
+##devise小整理
 ```rb
 todo.user_id=current_user.id
 ```
+
+count
+檢視所有event中,每個group佔的比例
 
 ##week10-Relation
 ####上課日期:5/7
@@ -22,11 +26,8 @@ todo.user_id=current_user.id
 ###[highcharts](http://www.highcharts.com/)
 
 ##import data to mysql
+/usr/local/var/mysql
 
 ##作業
-針對每個使用者的todo事項
-
-建立對應到user的todo
-只顯示屬於user的todo
 
 https://ihower.tw/rails4/installation.html#windows-7

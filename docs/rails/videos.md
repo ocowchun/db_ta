@@ -18,3 +18,9 @@
 
 ##devise示範影片
 <iframe width="640" height="480" src="https://www.youtube.com/embed/YnjbQrGMP2s" frameborder="0" allowfullscreen></iframe>
+
+##ActiveRecord 關聯 part1 
+<iframe width="640" height="480" src="https://www.youtube.com/embed/QY3ziIWzMv4" frameborder="0" allowfullscreen></iframe>
+
+##ActiveRecord 關聯 part2
+<iframe width="640" height="480" src="https://www.youtube.com/embed/Rg8pVGeXzrs" frameborder="0" allowfullscreen></iframe>

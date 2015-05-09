@@ -3,10 +3,12 @@
 這裏記錄了開發網站的基本技巧，希望可以幫助對開發網站有興趣的朋友,學會建立網站需要的相關技術
 
 ##changelog
+####2015.05.09
+* 更新[videos](rails/videos.md)，加入影片(Rails console操作示範,Ruby Block操作示範,Rails開發常用gem分享 )。
+
 ####2015.05.08
 * 更新[week10](week/week10.md)，加入影片。
 * 更新[videos](rails/videos.md)，加入影片。
-
 
 ####2015.05.04
 * 更新[week10](week/week10.md)。

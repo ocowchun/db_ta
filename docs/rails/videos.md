@@ -24,3 +24,12 @@
 
 ##ActiveRecord 關聯 part2
 <iframe width="640" height="480" src="https://www.youtube.com/embed/Rg8pVGeXzrs" frameborder="0" allowfullscreen></iframe>
+
+##Rails console操作示範
+<iframe width="640" height="480" src="https://www.youtube.com/embed/g6FXCyVROsE" frameborder="0" allowfullscreen></iframe>
+
+##Ruby Block操作示範 
+<iframe width="640" height="480" src="https://www.youtube.com/embed/vgbInX3PqtE" frameborder="0" allowfullscreen></iframe>
+
+##Rails開發常用gem分享 
+<iframe width="640" height="480" src="https://www.youtube.com/embed/xPHoC2ASYhU" frameborder="0" allowfullscreen></iframe>

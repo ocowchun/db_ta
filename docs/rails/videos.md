@@ -33,3 +33,6 @@
 
 ##Rails開發常用gem分享 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/xPHoC2ASYhU" frameborder="0" allowfullscreen></iframe>
+
+##Active Record 簡單的統計操作 
+<iframe width="640" height="480" src="https://www.youtube.com/embed/d7wKoJpAa6U" frameborder="0" allowfullscreen></iframe>

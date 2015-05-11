@@ -3,6 +3,9 @@
 這裏記錄了開發網站的基本技巧，希望可以幫助對開發網站有興趣的朋友,學會建立網站需要的相關技術
 
 ##changelog
+####2015.05.11
+* 更新[week9](week/week9.md),修改分頁sample code。
+
 ####2015.05.10
 * 更新[videos](rails/videos.md)，加入影片(Active Record 簡單的統計操作)。
 

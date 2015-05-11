@@ -347,7 +347,7 @@
 </code></pre>
 
 <h3 id="controller">Controller</h3>
-<pre><code>@users = User.order(:name).page params[:page]
+<pre><code>@users = User.order(:name).page(params[:page]).per(10)
 </code></pre>
 
 <h3 id="view">View</h3>

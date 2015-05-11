@@ -5,6 +5,7 @@
 ##changelog
 ####2015.05.11
 * 更新[week9](week/week9.md),修改分頁sample code。
+* 更新[videos](db/videos.md),sql基本查詢指令的影片。
 
 ####2015.05.10
 * 更新[videos](rails/videos.md)，加入影片(Active Record 簡單的統計操作)。

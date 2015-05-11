@@ -28,6 +28,7 @@ pages:
 - [rails/videos.md,'Rails','Videos']
 - [rails/ajax.md,'Rails','Ajax']
 - [rails/user.md,'Rails','User']
+- [db/videos.md,'DataBase','Videos']
 
 
 google_analytics: ['UA-60507351-1', 'auto']

@@ -29,6 +29,8 @@ pages:
 - [rails/ajax.md,'Rails','Ajax']
 - [rails/user.md,'Rails','User']
 - [db/videos.md,'DataBase','Videos']
+- [db/install_data.md,'DataBase','Install Data']
+
 
 
 google_analytics: ['UA-60507351-1', 'auto']

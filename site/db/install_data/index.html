@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-        <title>week4 - Web 101</title>
+        <title>Install Data - Web 101</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -94,48 +94,48 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">week <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             <li >
-                                <a href="../week1">week1</a>
+                                <a href="../../week/week1">week1</a>
                             </li>
                         
                             <li >
-                                <a href="../week2">week2</a>
+                                <a href="../../week/week2">week2</a>
                             </li>
                         
                             <li >
-                                <a href="../week3">week3</a>
-                            </li>
-                        
-                            <li class="active">
-                                <a href=".">week4</a>
+                                <a href="../../week/week3">week3</a>
                             </li>
                         
                             <li >
-                                <a href="../week5">week5</a>
+                                <a href="../../week/week4">week4</a>
                             </li>
                         
                             <li >
-                                <a href="../week6">week6</a>
+                                <a href="../../week/week5">week5</a>
                             </li>
                         
                             <li >
-                                <a href="../week7">week7</a>
+                                <a href="../../week/week6">week6</a>
                             </li>
                         
                             <li >
-                                <a href="../week8">week8</a>
+                                <a href="../../week/week7">week7</a>
                             </li>
                         
                             <li >
-                                <a href="../week9">week9</a>
+                                <a href="../../week/week8">week8</a>
                             </li>
                         
                             <li >
-                                <a href="../week10">week10</a>
+                                <a href="../../week/week9">week9</a>
+                            </li>
+                        
+                            <li >
+                                <a href="../../week/week10">week10</a>
                             </li>
                         
                         </ul>
@@ -229,16 +229,16 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">DataBase <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             <li >
-                                <a href="../../db/videos">Videos</a>
+                                <a href="../videos">Videos</a>
                             </li>
                         
-                            <li >
-                                <a href="../../db/install_data">Install Data</a>
+                            <li class="active">
+                                <a href=".">Install Data</a>
                             </li>
                         
                         </ul>
@@ -254,12 +254,12 @@
                 
                 
                 <li >
-                    <a rel="next" href="../week3">
+                    <a rel="next" href="../videos">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
-                <li >
-                    <a rel="prev" href="../week5">
+                <li class="disabled">
+                    <a rel="prev" >
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -276,48 +276,91 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#week4-javascript">week4-JavaScript</a></li>
+        <li class="main active"><a href="#mysql">輸入資料至MySQL</a></li>
         
-            <li><a href="#319">上課日期:3/19</a></li>
+            <li><a href="#1-mysql">1. 請先安裝好MySQL</a></li>
         
-            <li><a href="#basic-javascript">basic JavaScript</a></li>
+            <li><a href="#2">2. 建立新的資料庫用戶</a></li>
         
-            <li><a href="#jquery">jQuery</a></li>
+            <li><a href="#3">3. 建立好資料庫後,打開對應的資料庫資料夾</a></li>
         
-            <li><a href="#web-development-tool">web development tool</a></li>
+            <li><a href="#4">4. 把檔案解壓縮放進該資料夾</a></li>
         
-            <li><a href="#_1">作業</a></li>
+            <li><a href="#5">5. 驗證是否成功輸入資料</a></li>
+        
+            <li><a href="#_1">補充說明</a></li>
+        
+            <li><a href="#gui">GUI</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="week4-javascript">week4-JavaScript</h1>
-<h4 id="319">上課日期:3/19</h4>
+<h1 id="mysql">輸入資料至MySQL</h1>
 <blockquote>
-<p>所有你想得到關於網頁的應用(Gmail,facebook,Google Map)都是使用JavaScript來完成的，如果你想要讓你的網頁有一些酷炫的效果，例如像pinterest隨著滾輪下滑,自動出現新的圖片,facebook跳出朋友留言的通知,在輸入欄位自動完成使用者的搜尋...那你就必須學習JavaScript。</p>
+<p>示範如何安裝專案資料到mysql</p>
 </blockquote>
-<h3 id="basic-javascript">basic JavaScript</h3>
+<h2 id="1-mysql">1. 請先安裝好MySQL</h2>
+<p>在mac安裝MySQL可以參考<a href="https://ihower.tw/rails4/advanced-installation.html#mac-os-x">ihower-進階開發環境安裝</a></p>
+<p>在ubuntu安裝MySQL可以看下列影片
+<iframe width="640" height="480" src="https://www.youtube.com/embed/y2cGcyNhWVY" frameborder="0" allowfullscreen></iframe></p>
+<h2 id="2">2. 建立新的資料庫用戶</h2>
 <blockquote>
-<p>學習基本的JavaScript語法</p>
+<p>通常我們不會直接使用root來操作資料庫,我們會建立新的使用者來操作。</p>
 </blockquote>
-<h4 id="javascript"><a href="../../javascripts/introduction">JavaScript基本概念</a></h4>
-<h4 id="nodeschool"><a href="http://nodeschool.io/">nodeschool</a></h4>
-<h4 id="codecademy-javascript"><a href="http://www.codecademy.com/en/tracks/javascript">Codecademy-JavaScript</a></h4>
-<h3 id="jquery">jQuery</h3>
+<pre><code class="bash">#以root身份,登入MySQL
+$ mysql -u root -p 
+#輸入密碼後會進入MySQL command line
+
+#建立新帳號
+GRANT ALL ON *.* TO 'username'@'localhost' IDENTIFIED BY 'passowrd';
+
+#離開MySQL command line
+quit
+
+#以username身份,登入MySQL
+$ mysql -u username -p 
+#輸入密碼後會進入MySQL command line
+
+#建立database
+create database your-database-name;
+</code></pre>
+
+<h2 id="3">3. 建立好資料庫後,打開對應的資料庫資料夾</h2>
+<h4 id="ubuntu-user">ubuntu user</h4>
+<pre><code class="bash">sudo apt-get install libgnome2-bin.
+$ sudo su
+$ cd /var/lib/mysql/your-database-name
+$ gnome-open .
+</code></pre>
+
+<h3 id="mac-user">mac user</h3>
+<pre><code class="bash">$ cd /usr/local/var/mysql/your-database-name
+$ open .
+</code></pre>
+
+<h2 id="4">4. 把檔案解壓縮放進該資料夾</h2>
+<p>這樣就完成了。</p>
+<h2 id="5">5. 驗證是否成功輸入資料</h2>
+<pre><code class="bash">$ mysql -u username -p 
+use your-database-name;
+show tables;
+#如果有看到資料表就表示安裝成功
+</code></pre>
+
+<h2 id="_1">補充說明</h2>
+<p>其實像這樣子備份MySQL的資料其實不太好,比較好的做法是使用mysqldump
+有興趣的同學可以參考下面的連結
+<a href="https://fmbase.tw/blog/2013/01/23/mysql%E5%88%A9%E7%94%A8mysqldump%E5%82%99%E4%BB%BD/">FUNMING基地--利用MYSQLDUMP備份</a></p>
+<h2 id="gui">GUI</h2>
 <blockquote>
-<p>一個強大的pacakge,讓開發者輕鬆的操作DOM,使用ajax,甚至做簡單的動畫。</p>
+<p>除了command line之外,也可以使用GUI的方式來操作MySQL</p>
 </blockquote>
-<h4 id="jquery_1"><a href="../../javascripts/jquery">jQuery基本概念</a></h4>
-<h4 id="codecademy-jquery"><a href="http://www.codecademy.com/en/tracks/jquery">Codecademy-jQuery</a></h4>
-<h3 id="web-development-tool">web development tool</h3>
-<blockquote>
-<p>學習使用前端開發工具,讓你專注在開發,而不是一些瑣碎的事情。</p>
-</blockquote>
-<h4 id="development-tool"><a href="../../html/development_tool">development tool</a></h4>
-<h3 id="_1">作業</h3>
-<p>1.寫一個計算機</p>
+<h4 id="for-all-platforms">for all platforms</h4>
+<p><a href="https://www.mysql.com/products/workbench/">https://www.mysql.com/products/workbench/</a></p>
+<h4 id="for-mac">for mac</h4>
+<p><a href="http://www.sequelpro.com/">http://www.sequelpro.com/</a></p>
 </div>
             
         </div>

@@ -1,5 +1,5 @@
 #輸入資料至MySQL
->示範如何安裝專案資料到mysql
+>示範如何安裝專案資料到MySQL
 
 ##1. 請先安裝好MySQL
 在mac安裝MySQL可以參考[ihower-進階開發環境安裝](https://ihower.tw/rails4/advanced-installation.html#mac-os-x)

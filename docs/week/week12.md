@@ -3,7 +3,7 @@
 
 ###進階開發環境安裝
 > 如何設定database.yml
-https://ihower.tw/rails4/advanced-installation.html
+[ihower-進階開發環境安裝](https://ihower.tw/rails4/advanced-installation.html)
 
 使用`self.table_name`將model對應到指定名稱的資料表
 
@@ -18,9 +18,11 @@ https://ihower.tw/rails4/advanced-installation.html
 
 ###Asset Pipeline
 >編譯靜態檔案
-https://ihower.tw/rails4/assets-pipeline.html
+[ihower-Assets Pipeline](https://ihower.tw/rails4/assets-pipeline.html)
 
 ###figaro
+>讓開發者簡單的設定Rails app的設定檔
+[https://github.com/laserlemon/figaro](https://github.com/laserlemon/figaro)
 
 ##書單
 > 推薦給大家幾本不錯的書

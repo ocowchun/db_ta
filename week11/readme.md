@@ -32,6 +32,11 @@ show tables;
 SHOW FULL COLUMNS FROM a03a3_group;
 ```
 
+###add fk to rails 
+```rb
+    add_foreign_key "apply_jobs", "jobs",on_delete: :cascade
+```
+
 ##rollbar
 
 ##keenio

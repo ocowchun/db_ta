@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-        <title>week4 - Web 101</title>
+        <title>week12 - Web 101</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -110,8 +110,8 @@
                                 <a href="../week3">week3</a>
                             </li>
                         
-                            <li class="active">
-                                <a href=".">week4</a>
+                            <li >
+                                <a href="../week4">week4</a>
                             </li>
                         
                             <li >
@@ -138,8 +138,8 @@
                                 <a href="../week10">week10</a>
                             </li>
                         
-                            <li >
-                                <a href="../week12">week12</a>
+                            <li class="active">
+                                <a href=".">week12</a>
                             </li>
                         
                         </ul>
@@ -258,12 +258,12 @@
                 
                 
                 <li >
-                    <a rel="next" href="../week3">
+                    <a rel="next" href="../week10">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../week5">
+                    <a rel="prev" href="../../others/markdown">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -280,48 +280,70 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#week4-javascript">week4-JavaScript</a></li>
+        <li class="main active"><a href="#week12-final">week12-final</a></li>
         
-            <li><a href="#319">上課日期:3/19</a></li>
+            <li><a href="#521">上課日期:5/21</a></li>
         
-            <li><a href="#basic-javascript">basic JavaScript</a></li>
+            <li><a href="#_1">進階開發環境安裝</a></li>
         
-            <li><a href="#jquery">jQuery</a></li>
+            <li><a href="#activerecordsql">如何在ActiveRecord裡面寫sql</a></li>
         
-            <li><a href="#web-development-tool">web development tool</a></li>
+            <li><a href="#asset-pipeline">Asset Pipeline</a></li>
         
-            <li><a href="#_1">作業</a></li>
+            <li><a href="#figaro">figaro</a></li>
+        
+    
+        <li class="main "><a href="#_2">書單</a></li>
+        
+            <li><a href="#_3">專案管理</a></li>
+        
+            <li><a href="#_4">程式設計</a></li>
+        
+            <li><a href="#_5">創業</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="week4-javascript">week4-JavaScript</h1>
-<h4 id="319">上課日期:3/19</h4>
+<h2 id="week12-final">week12-final</h2>
+<h4 id="521">上課日期:5/21</h4>
+<h3 id="_1">進階開發環境安裝</h3>
 <blockquote>
-<p>所有你想得到關於網頁的應用(Gmail,facebook,Google Map)都是使用JavaScript來完成的，如果你想要讓你的網頁有一些酷炫的效果，例如像pinterest隨著滾輪下滑,自動出現新的圖片,facebook跳出朋友留言的通知,在輸入欄位自動完成使用者的搜尋...那你就必須學習JavaScript。</p>
+<p>如何設定database.yml
+https://ihower.tw/rails4/advanced-installation.html</p>
 </blockquote>
-<h3 id="basic-javascript">basic JavaScript</h3>
+<p>使用<code>self.table_name</code>將model對應到指定名稱的資料表</p>
+<h3 id="activerecordsql">如何在ActiveRecord裡面寫sql</h3>
+<pre><code class="ruby"> query = &lt;&lt;-SQL
+ write-your-sql
+ SQL
+ data=YourModel.find_by_sql(query)
+</code></pre>
+
+<h3 id="asset-pipeline">Asset Pipeline</h3>
 <blockquote>
-<p>學習基本的JavaScript語法</p>
+<p>編譯靜態檔案
+https://ihower.tw/rails4/assets-pipeline.html</p>
 </blockquote>
-<h4 id="javascript"><a href="../../javascripts/introduction">JavaScript基本概念</a></h4>
-<h4 id="nodeschool"><a href="http://nodeschool.io/">nodeschool</a></h4>
-<h4 id="codecademy-javascript"><a href="http://www.codecademy.com/en/tracks/javascript">Codecademy-JavaScript</a></h4>
-<h3 id="jquery">jQuery</h3>
+<h3 id="figaro">figaro</h3>
+<h2 id="_2">書單</h2>
 <blockquote>
-<p>一個強大的pacakge,讓開發者輕鬆的操作DOM,使用ajax,甚至做簡單的動畫。</p>
+<p>推薦給大家幾本不錯的書</p>
 </blockquote>
-<h4 id="jquery_1"><a href="../../javascripts/jquery">jQuery基本概念</a></h4>
-<h4 id="codecademy-jquery"><a href="http://www.codecademy.com/en/tracks/jquery">Codecademy-jQuery</a></h4>
-<h3 id="web-development-tool">web development tool</h3>
-<blockquote>
-<p>學習使用前端開發工具,讓你專注在開發,而不是一些瑣碎的事情。</p>
-</blockquote>
-<h4 id="development-tool"><a href="../../html/development_tool">development tool</a></h4>
-<h3 id="_1">作業</h3>
-<p>1.寫一個計算機</p>
+<h3 id="_3">專案管理</h3>
+<p><a href="http://www.books.com.tw/products/0010467041">約耳趣談軟體：來自專案管理的現場實錄</a>
+<a href="http://www.books.com.tw/products/0010254508?loc=asb_002">人月神話：軟體專案管理之道</a>
+<a href="http://www.books.com.tw/products/0010659524?loc=asb_001">Peopleware：腦力密集產業的人才管理之道</a>
+<a href="http://www.books.com.tw/products/0010482162">Rework 工作大解放：這樣做事反而更成功</a>
+<a href="http://www.books.com.tw/products/0010549884">笑談軟體工程：敏捷開發法的逆襲</a></p>
+<h3 id="_4">程式設計</h3>
+<p><a href="http://www.books.com.tw/products/0010411649">重構：改善既有程式的設計 (二版)</a>
+<a href="http://www.books.com.tw/products/0010309237">深入淺出－設計模式</a>
+<a href="http://www.books.com.tw/products/0010410726">JavaScript：優良部分</a></p>
+<h3 id="_5">創業</h3>
+<p><a href="http://www.books.com.tw/products/0010547374">精實創業：用小實驗玩出大事業</a>
+<a href="http://www.books.com.tw/products/0010651050?loc=asb_003">從0到1：打開世界運作的未知祕密，在意想不到之處發現價值</a></p>
 </div>
             
         </div>
